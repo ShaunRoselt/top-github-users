@@ -14,7 +14,7 @@ jobs:
           token: ${{ secrets.CUSTOM_TOKEN }}
       - uses: actions/setup-node@v4
         with:
-          node-version: '20.x'
+          node-version: '26.x'
       - uses: gayanvoice/top-github-users-action@master
         env:
           CUSTOM_TOKEN: ${{ secrets.CUSTOM_TOKEN }}
